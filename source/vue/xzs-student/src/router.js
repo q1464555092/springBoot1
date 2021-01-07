@@ -80,6 +80,18 @@ const router = new Router({
         }
       ]
     },
+    {
+      path: '/learningmaterials',
+      component: Layout,
+      children: [
+        {
+          path: 'video',
+          component: () => import('@/views/learningmaterials/video'),
+          name: 'LearningVideo',
+          meta: { title: '视频' }
+        }
+      ]
+    },
     { path: '/do', name: 'ExamPaperDo', component: () => import('@/views/exam/paper/do'), meta: { title: '试卷答题' } },
     { path: '/edit', name: 'ExamPaperEdit', component: () => import('@/views/exam/paper/edit'), meta: { title: '试卷批改' } },
     { path: '/read', name: 'ExamPaperRead', component: () => import('@/views/exam/paper/read'), meta: { title: '试卷查看' } },

@@ -19,6 +19,7 @@
         </el-dropdown>
       </div>
       <el-menu class="el-menu-title" mode="horizontal" :default-active="defaultUrl" :router="true">
+        <el-menu-item index="/learningmaterials/video">教学视频</el-menu-item>
         <el-menu-item index="/index">首页</el-menu-item>
         <el-menu-item index="/paper/index">试卷中心</el-menu-item>
         <el-menu-item index="/record/index">考试记录</el-menu-item>
@@ -33,7 +34,7 @@
     </el-main>
     <el-footer height="340" class="student-footer">
       <div class="container">
-        <div class="footer-main">
+       <!-- <div class="footer-main">
           <h4>产品介绍</h4>
           <a href="http://www.mindskip.net/sdd.html" target="_blank" class="footer-main-link">思多多智能考试平台</a>
           <a href="http://www.mindskip.net/wdd.html" target="_blank" class="footer-main-link">维多多培训考试系统</a>
@@ -62,12 +63,12 @@
           <p class="footer-social-title">开源社区</p>
           <a href="https://github.com/mindskip/xzs" target="_blank"> <svg-icon icon-class="social-github" style="width: 32px;height: 32px;" /></a>
           <a href="https://gitee.com/mindskip/uexam" target="_blank"><svg-icon icon-class="gitee" style="width: 32px;height: 32px;" /></a>
-        </div>
+        </div>-->
       </div>
     </el-footer>
-    <div class="foot-copyright">
+  <!--  <div class="foot-copyright">
       <span>Copyright © 2020 武汉思维跳跃科技有限公司 版权所有</span>
-    </div>
+    </div>-->
   </el-container>
 </template>
 

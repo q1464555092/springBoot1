@@ -39,10 +39,10 @@ system:
       - /api/wx/student/auth/checkBind
       - /api/wx/student/user/register
   qn:
-    url: http://xzs.file.mindskip.net
-    bucket: mindskip
-    access-key: KabOBTPGVll2sSV8d1OIlW8G4_n_cReE7RSsLafA
-    secret-key: mSltk9_9KtCdFetCmxvvCAgsBg8JZHiXMuQeqSJA
+    url: http://.img.csg.com
+    bucket: xxxxdemo
+    access-key: v7OXl_SSppAsr9JCVdkLjlf2wKErKeNxhjoHQ8-u
+    secret-key: BGDBt4K1uwVc5EqRdmpXhDQQtczL7X9x6VEfk2kE
 
 
 #mybatis page helper
