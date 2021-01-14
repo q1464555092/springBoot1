@@ -5,6 +5,7 @@
         <el-menu-item index="1">Java视频</el-menu-item>
         <el-menu-item index="2">JS大全</el-menu-item>
         <el-menu-item index="3" >消息队列</el-menu-item>
+        <el-menu-item index="4" >git测试</el-menu-item>
         <el-menu-item index="4"><a href="https://www.bilibili.com/" target="_blank">bilibili</a></el-menu-item>
       </el-menu>
       <div class="col_card" style="margin-left:180px">
