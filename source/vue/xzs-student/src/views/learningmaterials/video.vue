@@ -37,7 +37,7 @@ export default {
         delivery: false,
         type: [],
         resource: '',
-        desc: ''
+        desc: '',
       },
       activeIndex: '1',
       activeIndex2: '1'
